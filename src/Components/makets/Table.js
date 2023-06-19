@@ -27,9 +27,9 @@ class Checkbox extends React.Component {
         const target = event.target;
         const checked = target.checked;
         const name = target.name;
-        if (name == 'master') {
+        if (name === 'master') {
 
-        } else if (name == 'slave') {
+        } else if (name === 'slave') {
 
         };
     }
